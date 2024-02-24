@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/login.dart';
 
 void main() {
   runApp(MyApp());
@@ -42,7 +43,7 @@ class LandingPageView extends StatelessWidget {
                   child: Image.asset('images/comen.png'),)
               ],
             ),
-            Text(
+            const Text(
               'Let,s talk with new firend',
               style: TextStyle(
                 fontFamily: "Ibarra",
@@ -60,7 +61,10 @@ class LandingPageView extends StatelessWidget {
                 )
               ),
               onPressed: () {
-                
+                Navigator.push(context,
+                MaterialPageRoute(builder: (context) => Login ()
+                )
+                );
               },
               child: 
               Text(

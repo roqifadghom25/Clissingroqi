@@ -81,7 +81,7 @@ flutter:
   #         style: italic
     - family: Ibarra
       fonts:
-        - asset: fonts/IbarraRealNova-Italic-VariableFont_wght.ttf
+        - asset: fonts/IbarraRealNova-VariableFont_wght.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
